@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", 23270378))
+API_HASH = getenv("API_HASH", "1adf3dfe84699547757a5f2e4cb84d3a")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 OWNER_ID = int(getenv("OWNER_ID", 1786683163))
 MONGO_URL = getenv("MONGO_URL", None)
@@ -76,5 +76,6 @@ EMOJIOS = [
     "👻",
     "🎃",
     "🎩",
+   
     "🕊",
 ]
