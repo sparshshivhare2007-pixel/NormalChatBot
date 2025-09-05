@@ -2,49 +2,64 @@ from config import OWNER_USERNAME, SUPPORT_GRP
 from NoxxNetwork import NoxxBot
 
 START = f"""
-**๏ ʜᴇʏ, ɪ ᴀᴍ [{NoxxBot.name}](t.me/{NoxxBot.username})**
-**➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ**
-**──────────────**
-**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**
-<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ.||</b>
+👋 ʜᴇʏ! ɪ'ᴍ <b>[{NoxxBot.name}](t.me/{NoxxBot.username})</b>  
+🤖 ᴀɴ ᴀɪ-ᴘᴏᴡᴇʀᴇᴅ ᴄʜᴀᴛʙᴏᴛ 🚀  
+
+✨ ᴜsᴀɢᴇ: <code>/chatbot [on/off]</code>  
+🔘 ᴛᴀᴘ ᴏɴ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ 💡  
 """
 
 HELP_READ = f"""
-<u>**ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ {NoxxBot.name}**</u>
-<u>**ᴀʀᴇ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ!**</u>
-**ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ:/**
-**──────────────**
-<b>||©️ @{OWNER_USERNAME}||</b>
+📚 <u><b>ʜᴇʟᴘ ᴍᴇɴᴜ ғᴏʀ {NoxxBot.name}</b></u>  
+
+⚡ ᴜsᴇ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ <code>/</code>  
+
+🛠️ ᴍᴀɪɴ ғᴇᴀᴛᴜʀᴇs:  
+- 💬 /chatbot on → ᴇɴᴀʙʟᴇ ᴀɪ ᴄʜᴀᴛ  
+- 🔇 /chatbot off → ᴅɪsᴀʙʟᴇ ᴀɪ ᴄʜᴀᴛ  
+
+👑 ᴏᴡɴᴇʀ: @{OWNER_USERNAME}  
 """
 
 TOOLS_DATA_READ = f"""
-<u>**ᴛᴏᴏʟs ғᴏʀ {NoxxBot.name} ᴀʀᴇ:**</u>
-**➻ ᴜsᴇ /repo ғᴏʀ ɢᴇᴛᴛɪɴɢ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ!**
-**──────────────**
-**➻ ᴜsᴇ /ping ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ᴛʜᴇ ᴘɪɴɢ ᴏғ {NoxxBot.name}**
-**──────────────**
-**➻ ᴜsᴇ /id ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴜsᴇʀ ɪᴅ, ᴄʜᴀᴛ ɪᴅ ᴀɴᴅ ᴍᴇssᴀɢᴇ ɪᴅ ᴀʟʟ ɪɴ ᴀ sɪɴɢʟᴇ ᴍᴇssᴀɢᴇ.**
-**──────────────**
-<b>||©️ @{OWNER_USERNAME}||</b>
+🛠️ <u><b>ᴛᴏᴏʟs ғᴏʀ {NoxxBot.name}</b></u>  
+
+📂 /repo → ɢᴇᴛ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ  
+📡 /ping → ᴄʜᴇᴄᴋ ᴘɪɴɢ  
+🆔 /id → ɢᴇᴛ ᴜsᴇʀ ɪᴅ, ᴄʜᴀᴛ ɪᴅ & ᴍᴇssᴀɢᴇ ɪᴅ  
+
+👑 ᴏᴡɴᴇʀ: @{OWNER_USERNAME}  
 """
 
 CHATBOT_READ = f"""
-<u>**ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ {NoxxBot.name}**</u>
-**➻ ᴜsᴇ /chatbot ᴛᴏ ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴄʜᴀᴛʙᴏᴛ.**
-**๏ ɴᴏᴛᴇ ➻ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴄʜᴀᴛʙᴏᴛ ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**
-**───────────────**
-<b>||©️ @{OWNER_USERNAME}||</b>
+🤖 <u><b>ᴄʜᴀᴛʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs</b></u>  
+
+💬 /chatbot on → ᴇɴᴀʙʟᴇ ᴀɪ  
+🔇 /chatbot off → ᴅɪsᴀʙʟᴇ ᴀɪ  
+
+⚠️ ɴᴏᴛᴇ: ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡᴏʀᴋs ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘs!  
+
+👑 ᴏᴡɴᴇʀ: @{OWNER_USERNAME}  
 """
 
-SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{NoxxBot.name}](https://t.me/{NoxxBot.username}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ & ɢɪᴠᴇ ᴛʜᴇ sᴛᴀʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://github.com/YaduvanshiNand/Nand/blob/main/README.md)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n<b>||©️ @{OWNER_USERNAME}||</b>"
+SOURCE_READ = f"""
+💻 <b>sᴏᴜʀᴄᴇ ᴏғ [{NoxxBot.name}](https://t.me/{NoxxBot.username})</b>  
 
-ADMIN_READ = f"sᴏᴏɴ"
+🌟 ғᴏʀᴋ & sᴛᴀʀ → [GitHub Repo](https://github.com/NoxxOP/NormalChatBot)  
+
+❓ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ? → [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP})  
+
+👑 ᴏᴡɴᴇʀ: @{OWNER_USERNAME}  
+"""
+
+ADMIN_READ = "⚙️ <b>ᴀᴅᴍɪɴ ғᴇᴀᴛᴜʀᴇs ᴄᴏᴍɪɴɢ sᴏᴏɴ...</b> 🔜"
 
 ABOUT_READ = f"""
-**➻ [{NoxxBot.name}](https://t.me/{NoxxBot.username}) ɪs ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛ-ʙᴏᴛ.**
-**➻ [{NoxxBot.name}](https://t.me/{NoxxBot.username}) ʀᴇᴘʟɪᴇs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴛᴏ ᴀ ᴜsᴇʀ.**
-**➻ ʜᴇʟᴘs ʏᴏᴜ ɪɴ ᴀᴄᴛɪᴠᴀᴛɪɴɢ ʏᴏᴜʀ ɢʀᴏᴜᴘs.**
-**➻ ᴡʀɪᴛᴛᴇɴ ɪɴ [ᴘʏᴛʜᴏɴ](https://www.python.org) ᴡɪᴛʜ [ᴍᴏɴɢᴏ-ᴅʙ](https://www.mongodb.com) ᴀs ᴀ ᴅᴀᴛᴀʙᴀsᴇ**
-**──────────────**
-**➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ [{NoxxBot.name}](https://t.me/{NoxxBot.username})**
+ℹ️ <u><b>ᴀʙᴏᴜᴛ {NoxxBot.name}</b></u>  
+
+🤖 ᴀɴ ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ  
+💬 ᴀᴜᴛᴏ-ʀᴇᴘʟɪᴇs ᴛᴏ ᴜsᴇʀs  
+👥 ʜᴇʟᴘs ɪɴ ɢʀᴏᴜᴘ ᴀᴄᴛɪᴠɪᴛʏ  
+
+👇 ᴜsᴇ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ  
 """
