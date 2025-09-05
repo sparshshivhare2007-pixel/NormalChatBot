@@ -7,7 +7,7 @@ from pyrogram.enums import ChatAction
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import MONGO_URL
-from NoxxNetwork import NoxxNetwork
+from NoxxNetwork import NoxxBot
 from NoxxNetwork.modules.helpers import CHATBOT_ON, is_admins
 
 
