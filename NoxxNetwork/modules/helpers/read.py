@@ -2,64 +2,64 @@ from config import OWNER_USERNAME, SUPPORT_GRP
 from NoxxNetwork import NoxxBot
 
 START = f"""
-👋 ʜᴇʏ! ɪ'ᴍ <b>[{NoxxBot.name}](t.me/{NoxxBot.username})</b>  
-🤖 ᴀɴ ᴀɪ-ᴘᴏᴡᴇʀᴇᴅ ᴄʜᴀᴛʙᴏᴛ 🚀  
+<b>👋 ʜᴇʏ! ɪ'ᴍ [{NoxxBot.name}](t.me/{NoxxBot.username})</b>  
+<b>🤖 ᴀɴ ᴀɪ-ᴘᴏᴡᴇʀᴇᴅ ᴄʜᴀᴛʙᴏᴛ 🚀</b>  
 
-✨ ᴜsᴀɢᴇ: <code>/chatbot [on/off]</code>  
-🔘 ᴛᴀᴘ ᴏɴ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ 💡  
+<b>✨ ᴜsᴀɢᴇ: /chatbot [on/off]</b>  
+<b>🔘 ᴛᴀᴘ ᴏɴ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ 💡</b>  
 """
 
 HELP_READ = f"""
 📚 <u><b>ʜᴇʟᴘ ᴍᴇɴᴜ ғᴏʀ {NoxxBot.name}</b></u>  
 
-⚡ ᴜsᴇ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ <code>/</code>  
+<b>⚡ ᴜsᴇ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ /</b>  
 
-🛠️ ᴍᴀɪɴ ғᴇᴀᴛᴜʀᴇs:  
-- 💬 /chatbot on → ᴇɴᴀʙʟᴇ ᴀɪ ᴄʜᴀᴛ  
-- 🔇 /chatbot off → ᴅɪsᴀʙʟᴇ ᴀɪ ᴄʜᴀᴛ  
+<b>🛠️ ᴍᴀɪɴ ғᴇᴀᴛᴜʀᴇs:</b>  
+<b>- 💬 /chatbot on → ᴇɴᴀʙʟᴇ ᴀɪ ᴄʜᴀᴛ</b>  
+<b>- 🔇 /chatbot off → ᴅɪsᴀʙʟᴇ ᴀɪ ᴄʜᴀᴛ</b>  
 
-👑 ᴏᴡɴᴇʀ: @{OWNER_USERNAME}  
+<b>👑 ᴏᴡɴᴇʀ: @{OWNER_USERNAME}</b>  
 """
 
 TOOLS_DATA_READ = f"""
 🛠️ <u><b>ᴛᴏᴏʟs ғᴏʀ {NoxxBot.name}</b></u>  
 
-📂 /repo → ɢᴇᴛ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ  
-📡 /ping → ᴄʜᴇᴄᴋ ᴘɪɴɢ  
-🆔 /id → ɢᴇᴛ ᴜsᴇʀ ɪᴅ, ᴄʜᴀᴛ ɪᴅ & ᴍᴇssᴀɢᴇ ɪᴅ  
+<b>📂 /repo → ɢᴇᴛ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ</b>  
+<b>📡 /ping → ᴄʜᴇᴄᴋ ᴘɪɴɢ</b>  
+<b>🆔 /id → ɢᴇᴛ ᴜsᴇʀ ɪᴅ, ᴄʜᴀᴛ ɪᴅ & ᴍᴇssᴀɢᴇ ɪᴅ</b>  
 
-👑 ᴏᴡɴᴇʀ: @{OWNER_USERNAME}  
+<b>👑 ᴏᴡɴᴇʀ: @{OWNER_USERNAME}</b>  
 """
 
 CHATBOT_READ = f"""
 🤖 <u><b>ᴄʜᴀᴛʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs</b></u>  
 
-💬 /chatbot on → ᴇɴᴀʙʟᴇ ᴀɪ  
-🔇 /chatbot off → ᴅɪsᴀʙʟᴇ ᴀɪ  
+<b>💬 /chatbot on → ᴇɴᴀʙʟᴇ ᴀɪ</b>  
+<b>🔇 /chatbot off → ᴅɪsᴀʙʟᴇ ᴀɪ</b>  
 
-⚠️ ɴᴏᴛᴇ: ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡᴏʀᴋs ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘs!  
+<b>⚠️ ɴᴏᴛᴇ: ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡᴏʀᴋs ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘs!</b>  
 
-👑 ᴏᴡɴᴇʀ: @{OWNER_USERNAME}  
+<b>👑 ᴏᴡɴᴇʀ: @{OWNER_USERNAME}</b>  
 """
 
 SOURCE_READ = f"""
 💻 <b>sᴏᴜʀᴄᴇ ᴏғ [{NoxxBot.name}](https://t.me/{NoxxBot.username})</b>  
 
-🌟 ғᴏʀᴋ & sᴛᴀʀ → [GitHub Repo](https://github.com/NoxxOP/NormalChatBot)  
+<b>🌟 ғᴏʀᴋ & sᴛᴀʀ → [GitHub Repo](https://github.com/NoxxOP/NormalChatBot)</b>  
 
-❓ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ? → [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP})  
+<b>❓ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ? → [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP})</b>  
 
-👑 ᴏᴡɴᴇʀ: @{OWNER_USERNAME}  
+<b>👑 ᴏᴡɴᴇʀ: @{OWNER_USERNAME}</b>  
 """
 
-ADMIN_READ = "⚙️ <b>ᴀᴅᴍɪɴ ғᴇᴀᴛᴜʀᴇs ᴄᴏᴍɪɴɢ sᴏᴏɴ...</b> 🔜"
+ADMIN_READ = "<b>⚙️ ᴀᴅᴍɪɴ ғᴇᴀᴛᴜʀᴇs ᴄᴏᴍɪɴɢ sᴏᴏɴ... 🔜</b>"
 
 ABOUT_READ = f"""
 ℹ️ <u><b>ᴀʙᴏᴜᴛ {NoxxBot.name}</b></u>  
 
-🤖 ᴀɴ ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ  
-💬 ᴀᴜᴛᴏ-ʀᴇᴘʟɪᴇs ᴛᴏ ᴜsᴇʀs  
-👥 ʜᴇʟᴘs ɪɴ ɢʀᴏᴜᴘ ᴀᴄᴛɪᴠɪᴛʏ  
+<b>🤖 ᴀɴ ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ</b>  
+<b>💬 ᴀᴜᴛᴏ-ʀᴇᴘʟɪᴇs ᴛᴏ ᴜsᴇʀs</b>  
+<b>👥 ʜᴇʟᴘs ɪɴ ɢʀᴏᴜᴘ ᴀᴄᴛɪᴠɪᴛʏ</b>  
 
-👇 ᴜsᴇ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ  
+<b>👇 ᴜsᴇ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ</b>  
 """
