@@ -7,7 +7,7 @@ from pyrogram.enums import ChatAction
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import MONGO_URL
-from NoxxNetwork import NoxxBot
+from NoxxNetwork import NoxxNetwork
 from NoxxNetwork.modules.helpers import CHATBOT_ON, is_admins
 
 
@@ -248,7 +248,6 @@ async def chatbot_private(client: Client, message: Message):
             await message.reply_text(random.choice(default_responses))
 
 
-# Stats command
 @NoxxNetwork.on_cmd("chatstats")
 async def chatbot_stats(_, message: Message):
     """Show total learned words"""
