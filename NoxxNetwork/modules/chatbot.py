@@ -7,11 +7,11 @@ from pyrogram.enums import ChatAction
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import MONGO_URL
-from NoxxNetwork import NoxxNetwork
+from NoxxNetwork import NoxxBot
 from NoxxNetwork.modules.helpers import CHATBOT_ON, is_admins
 
 
-@NoxxNetwork.on_cmd("chatbot", group_only=True)
+@NoxxBot.on_cmd("chatbot", group_only=True)
 @adminsOnly("can_delete_messages")
 async def chaton_(_, m: Message):
     await m.reply_text(
@@ -25,7 +25,7 @@ async def chaton_(_, m: Message):
 chat_previous_messages = {}
 
 
-@NoxxNetwork.on_message(
+@NoxxBot.on_message(
     (filters.text | filters.sticker | filters.group) & ~filters.private & ~filters.bot, group=4
 )
 async def chatbot_universal(client: Client, message: Message):
@@ -196,7 +196,7 @@ async def chatbot_universal(client: Client, message: Message):
                         pass
 
 
-@NoxxNetwork.on_message(
+@NoxxBot.on_message(
     filters.private & (filters.text | filters.sticker) & ~filters.bot, group=5
 )
 async def chatbot_private(client: Client, message: Message):
@@ -248,7 +248,7 @@ async def chatbot_private(client: Client, message: Message):
             await message.reply_text(random.choice(default_responses))
 
 
-@NoxxNetwork.on_cmd("chatstats")
+@NoxxBot.on_cmd("chatstats")
 async def chatbot_stats(_, message: Message):
     """Show total learned words"""
     try:
