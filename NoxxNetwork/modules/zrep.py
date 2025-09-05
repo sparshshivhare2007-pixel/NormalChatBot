@@ -6,8 +6,6 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from config import IMG
 from NoxxNetwork import NoxxBot
 
-
-# new stylish small caps caption
 start_txt = """<b>
 ✪ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ @sʜʀᴜᴛɪʙᴏᴛs ✪
 
