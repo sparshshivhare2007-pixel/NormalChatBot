@@ -1,5 +1,5 @@
 {
-  "name": "Nand Chat Bot",
+  "name": "ShrutiBots Chat Bot",
   "description": "A telegram bot",
   "logo": "https://files.catbox.moe/2oj1vp.webp",
   "keywords": [
@@ -11,7 +11,7 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/YaduvanshiNand/Nand/blob/main/README.md",
+  "repository": "https://github.com/NoxxOP/NormalChatBot",
   "env": {
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps.",
@@ -29,14 +29,14 @@
       "value": ""
     },
     "MONGO_URL": {
-      "description": "Get a mongodb url from https://cloud.mongodb.com.",
+      "description": "Get a mongodb url.",
       "required": true,
-      "value": ""
+      "value": "mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?retryWrites=true&w=majority&appName=NYCREATION"
     },
     "OWNER_ID": {
       "description": "User id of the user who will known as owner of the bot.",
       "required": true,
-      "value": ""
+      "value": "7574330905"
     }
   }
 }
