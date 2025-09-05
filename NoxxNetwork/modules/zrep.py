@@ -20,7 +20,6 @@ start_txt = """<b>
 ⟢ sᴛᴀʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴡɪᴛʜ ᴛʜᴇ ᴄᴏᴍᴍᴜɴɪᴛʏ!
 </b>"""
 
-# repo buttons
 repo_buttons = [
     [InlineKeyboardButton("⋆ ᴍᴜsɪᴄ + ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ⋆", url="http://github.com/NoxxOP/ShrutiMusicPost")],
     [InlineKeyboardButton("⋆ ᴍᴜsɪᴄ ⋆", url="http://github.com/NoxxOP/ShrutixMusicPost")],
@@ -32,7 +31,6 @@ repo_buttons = [
 ]
 
 
-# ek function jo sabhi commands pe chale
 async def send_repo(_, m: Message):
     reply_markup = InlineKeyboardMarkup(repo_buttons)
     await m.reply_photo(
@@ -42,7 +40,6 @@ async def send_repo(_, m: Message):
     )
 
 
-# multiple commands handle karega
 @NoxxBot.on_cmd(["repo", "repos", "source", "repo_source"])
 async def repo_handler(client, message: Message):
     await send_repo(client, message)
