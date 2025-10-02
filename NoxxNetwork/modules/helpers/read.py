@@ -45,7 +45,7 @@ CHATBOT_READ = f"""
 SOURCE_READ = f"""
 💻 <b>sᴏᴜʀᴄᴇ ᴏғ [{NoxxBot.name}](https://t.me/{NoxxBot.username})</b>  
 
-<b>🌟 ғᴏʀᴋ & sᴛᴀʀ → [GitHub Repo](https://github.com/NoxxOP/NormalChatBot)</b>  
+<b>🌟 ғᴏʀᴋ & sᴛᴀʀ → [GitHub Repo](https://github.com/sparshshivhare2007-pixel/NormalChatBot/)</b>  
 
 <b>❓ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ? → [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP})</b>  
 
