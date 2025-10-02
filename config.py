@@ -9,8 +9,8 @@ API_HASH = getenv("API_HASH", "f10822a551f38b26ee1179e1a6515e01")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 OWNER_ID = int(getenv("OWNER_ID",8158429107))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?retryWrites=true&w=majority&appName=NYCREATION")
-SUPPORT_GRP = getenv("SUPPORT_GRP", "https://t.me/Shizuka_support")
-UPDATE_CHNL = getenv("UPDATE_CHNL", "https://t.me/shizuka_bots")
+SUPPORT_GRP = getenv("SUPPORT_GRP", "Shizuka_support")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "shizuka_bots")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "HYE_BABU")
 
 # Random Start Images
