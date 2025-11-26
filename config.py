@@ -4,14 +4,15 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "26407665"))
-API_HASH = getenv("API_HASH", "f10822a551f38b26ee1179e1a6515e01")
+API_ID = int(getenv("API_ID", "26907246"))
+API_HASH = getenv("API_HASH", "1f75814e906cda223691847638b9fe94
+")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = int(getenv("OWNER_ID",8158429107))
+OWNER_ID = int(getenv("OWNER_ID",8379938997))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?retryWrites=true&w=majority&appName=NYCREATION")
 SUPPORT_GRP = getenv("SUPPORT_GRP", "Shizuka_support")
 UPDATE_CHNL = getenv("UPDATE_CHNL", "shizuka_bots")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "HYE_BABU")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "INTROVERT_HU_YRR")
 
 # Random Start Images
 IMG = [
